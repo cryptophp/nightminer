@@ -888,9 +888,9 @@ if __name__ == '__main__':
   # Parse the command line
   parser = argparse.ArgumentParser(description = "CPU-Miner for Cryptocurrency using the stratum protocol")
 
-  parser.add_argument('-o', '--url', help = 'stratum mining server url (eg: stratum+tcp://foobar.com:3333)')
-  parser.add_argument('-u', '--user', dest = 'username', default = '', help = 'username for mining server', metavar = "USERNAME")
-  parser.add_argument('-p', '--pass', dest = 'password', default = '', help = 'password for mining server', metavar = "PASSWORD")
+  parser.add_argument('-o', '--url', help = 'stratum+tcp://solo.ckpool.org:3333')
+  parser.add_argument('-u', '--user', dest = 'username', default = '', help = '12VAZkZwsGF71je3jWKaeHuRD1i9pBiocH', metavar = "USERNAME")
+  parser.add_argument('-p', '--pass', dest = 'password', default = '', help = 'x', metavar = "PASSWORD")
 
   parser.add_argument('-O', '--userpass', help = 'username:password pair for mining server', metavar = "USERNAME:PASSWORD")
 
